@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BankCard
+comment0.text=\r\n\ This\ is\ a\ parent\ class\ named\ BankCard\ which\ has\ five\ attributes\ \:\ int\ cardId,\ String\ clientName,\ String\ issuerBank,\r\n\ String\ bankAccount\ and\ double\ balanceAmount.\ The\ class\ has\ a\ constructor\ that\ accepts\ four\ parameters\ \:\ double\ \r\n\ balanceAmount,int\ cardId,\ String\ bankAccount\ and\ String\ issuerBank,\ and\ assigns\ these\ with\ corresponding\ attributes.\r\n\ Each\ attribute\ has\ accessor\ methods\ and\ setter\ methods\ for\ the\ clientName\ and\ balanceAmount\ attributes.\ It\ has\ display\ \r\n\ method\ that\ checks\ if\ the\ clientName\ is\ empty\ string\ or\ not.\ if\ not\ then\ all\ the\ value\ of\ attributes\ of\ BankCard\ class\ \r\n\ are\ printed.\r\n\r\n\ @author\ (22067585\ Aryan\ Gurung)\r\n\ @version\ (5.1.0)\r\n
+comment1.params=balanceAmount\ cardId\ bankAccount\ issuerBank
+comment1.target=BankCard(double,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=This\ is\ a\ constructor\ which\ acceps\ four\ parameters\:\ double\ balanceAmount,\ int\ cardId,\ \r\nString\ bankAccount,\ and\ String\ issuerBank.\ It\ sets\ the\ clientName\ instance\ variable\ \r\nto\ be\ an\ empty\ string.\ It\ assign\ the\ instance\ variable\ balanceAmount,\ cardId,\ bankAccount,\ issuerBank\r\nwith\ its\ respective\ parameters.\r\n
+comment2.params=
+comment2.target=int\ getCardId()
+comment3.params=
+comment3.target=java.lang.String\ getClientName()
+comment4.params=
+comment4.target=java.lang.String\ getIssuerBank()
+comment5.params=
+comment5.target=java.lang.String\ getBankAccount()
+comment6.params=
+comment6.target=double\ getBalanceAmount()
+comment7.params=clientName
+comment7.target=void\ setClientName(java.lang.String)
+comment8.params=balanceAmount
+comment8.target=void\ setBalanceAmount(double)
+comment9.params=
+comment9.target=void\ display()
+comment9.text=This\ is\ void\ display\ method\ that\ checks\ that\ the\ clientName\ attribute\ does\ not\ contain\ an\ empty\ string.\r\n\ If\ so,\ then\ display\ "Client\ name\ not\ assigned."\ If\ the\ clientName\ attribue\ contains\ a\ value\ other\ than\r\n\ empty\ string\ then\ display\ the\ values\ of\ the\ attributes\ cardId,\ clientName,\ issuerBank,\ bankAccount,\ balanceAmount.\r\n
+numComments=10

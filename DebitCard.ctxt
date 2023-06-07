@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\r\n\ It\ is\ a\ subclass\ of\ BankCard\ class\ which\ have\ four\ attributes\ int\ pinNumber,\ int\ withdrawalAmount,\ String\ dateOfWithdrawal\ \r\n\ and\ boolean\ hasWithdrawn.The\ class\ has\ a\ constructor\ that\ takes\ six\ parameters\ including\ double\ balanceAmount,\ int\ cardId,\r\n\ String\ bankAccount,\ String\ issuerBank,\ String\ clientName,\ int\ pinNumber\ It\ calls\ the\ parent\ class\ constructor\ using\ super\ keyword.\r\n\ the\ class\ has\ a\ number\ of\ accessor\ and\ mutator\ methods\ to\ altering\ the\ attribute's\ values.\ It\ has\ methods\ for\ money\ withdraw\r\n\ which\ verify\ the\ validity\ of\ the\ pinNumber\ and\ determine\ if\ the\ withdrawalAmount\ is\ less\ than\ or\ equal\ to\ the\ balanceAmount.\r\n\ Additionally,\ the\ class\ has\ a\ display\ method\ that\ calls\ parent\ class\ display\ method\ and\ prints\ information\ about\ withdrawal.\ \r\n\r\n\ @author\ (22067585\ Aryan\ Gurung)\r\n\ @version\ (5.1.0)\r\n
+comment1.params=balanceAmount\ cardId\ bankAccount\ issuerBank\ clientName\ pinNumber
+comment1.target=DebitCard(double,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=This\ is\ a\ constructor\ method\ which\ accepts\ six\ parameters\:\ double\ balanceAmount,\ int\ cardId,\ int\ pinNumber\r\n\ and\ String\ bankAccount,\ String\ issuerBank,\ String\ clientName.\ using\ "super"\ keyword\ it\ calls\ the\ parent\ class\r\n\ constructor.\ client\ name\ is\ set\ by\ using\ setter\ method\ of\ parent\ class.\ The\ pinNumber\ is\ assigned\ with\ its\ parameter\r\n\ value\ and\ hasWithdrawn\ property\ is\ changed\ to\ false.\r\n
+comment2.params=
+comment2.target=int\ getPinNumber()
+comment3.params=
+comment3.target=int\ getWithdrawalAmount()
+comment4.params=
+comment4.target=java.lang.String\ getDateOfWithdrawal()
+comment5.params=
+comment5.target=boolean\ getHasWithdrawn()
+comment6.params=withdrawalAmount
+comment6.target=void\ setWithdrawalAmount(int)
+comment7.params=withdrawalAmount\ dateOfWithdrawal\ pinNumber
+comment7.target=void\ withdraw(int,\ java.lang.String,\ int)
+comment7.text=This\ is\ a\ void\ withdraw\ method\ that\ allow\ user\ to\ withdraw\ amount\ from\ debit\ card.\ It\ accepts\ three\ parameters\:\r\nint\ withdrawalAmount,\ int\ pinNumber\ and\ String\ dateOfWithdrawal.\ It\ checks\ whether\ the\ entered\ pinNumber\ matches\r\nthe\ card\ pinNumber\ first\ then\ determines\ if\ the\ withdrawalAmount\ is\ less\ than\ or\ equal\ to\ the\ current\ balanceAmount.\ \r\nif\ both\ conditon\ valid\ then\ it\ assign\ instance\ variable\ withdrawalAmount\ and\ dateOfWithdrawal\ to\ it's\ prarameter\ value\r\nand\ deduct\ the\ withdrawalAmount\ from\ balanceAmount\ and\ set\ hasWithdrawn\ property\ to\ true.\ it\ also\ print\ suitable\ error\ \r\nmessage\ if\ pinNumber\ is\ not\ valid\ or\ have\ insufficient\ balance.\r\n
+comment8.params=
+comment8.target=void\ display()
+comment8.text=This\ is\ a\ method\ name\ display\ which\ first\ calls\ display\ method\ of\ super\ class\ using\ "super"\ keyword.\r\nit\ checks\ whether\ the\ value\ of\ hasWithdrawn\ attribut\ is\ set\ to\ true,\ if\ so\ then\ prints\ the\ value\ of\r\nwithdrawalAmount,\ dateOfWithdrawal\ and\ pinNumber.\ if\ the\ value\ of\ hasWithdrawn\ attribute\ set\ to\ other\ than\ true\r\nit\ calls\ getter\ method\ getBalanceAmount()\ of\ super\ class\ to\ print\ balancAmount.\r\n
+numComments=9
